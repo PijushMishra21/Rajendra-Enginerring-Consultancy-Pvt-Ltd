@@ -11,7 +11,7 @@ function App() {
     <>
       <div>
         <a href="https://vitejs.dev" target="_blank">
-          <img src='../src/assets/img.05518c20753253002778.jpg' className="logo" alt="Vite logo" />
+          <img src='/src/assets/img.05518c20753253002778.jpg' className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
