@@ -11,7 +11,7 @@ import ServiceCard from "../Homepage/ServiceCard";
 import ContactUs from '../NavPages/ContactUs'
 import FAQ from '../Homepage/FAQ';
 import { Link, NavLink, useNavigate,   } from 'react-router-dom';
-
+import businessImage from '/src/assets/1.png'
 
 
 
@@ -104,7 +104,7 @@ function HomePage() {
 <main className="main_page1">
  <section className="image_section">
  <div className="image_section_div">
-   <img className="business_image" type='image/png' src='/src/assets/1.png' alt="business-image" />
+   <img className="business_image" type='image/png' src={businessImage} alt="business-image" />
  </div>
 </section> 
 <section className="para_section">
