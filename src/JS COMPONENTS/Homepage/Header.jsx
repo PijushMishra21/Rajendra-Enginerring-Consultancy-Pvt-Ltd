@@ -4,6 +4,7 @@ import '../CSS style/Header.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link, NavLink } from 'react-router-dom';
 import require from 'react'
+import logo from '/src/assets/civil_enginear_man_logo-removebg-preview.png'
 
 function Header() {
   
@@ -21,7 +22,7 @@ function Header() {
       <div className="container">
 					
           <div className="main_header">
-          <img className="header_image" src="/src/assets/civil_enginear_man_logo-removebg-preview.png" alt="website-logo" />
+          <img className="header_image" src={logo}alt="website-logo" />
            <h1 className="main_heading">Rajendra Engineering Consultancy</h1>
         
     <nav className="navbar navbar-expand-sm navbar-light ">
