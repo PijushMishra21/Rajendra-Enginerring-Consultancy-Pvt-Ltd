@@ -12,6 +12,24 @@ import ContactUs from '../NavPages/ContactUs'
 import FAQ from '../Homepage/FAQ';
 import { Link, NavLink, useNavigate,   } from 'react-router-dom';
 import businessImage from '/src/assets/1.png'
+import faqImage from '/src/assets/medium-shot-engineer-architect-supervising-construction_23-2148233731.jpg'
+import PlanmakingImage from '/src/assets/civil image.jpg'
+import GeotagImage from '/src/assets/geo taging of land.jpg'
+import projectImage from '/src/assets/civil photo 2.jpg'
+import gpsImage from '/src/assets/gps-survey-service-.webp'
+import landImage from '/src/assets/landsurveying-services-.webp'
+import soilImage from '/src/assets/soil-land-survey-service-.webp'
+import firmImage from '/src/assets/civile image.jpg'
+import polutionImage from '/src/assets/polution control image.jpeg'
+import accontingImage from '/src/assets/Consultancy On financial Matters & Accounting.webp'
+
+
+
+
+
+
+
+
 
 
 
@@ -126,48 +144,48 @@ function HomePage() {
   <section className="service_card_section">
   <ServiceCard
       title="Master Plan making & plotting of a mass areas"
-      imageUrl="/public/Images/images/civil image.jpg"
+      imageUrl={PlanmakingImage}
       para={para}
     />
 <ServiceCard
       title="Geo tagging of land"
-      imageUrl=""
+      imageUrl={GeotagImage}
       para={para}
     />
 <ServiceCard
       title="Project Report  For New Project"
-      imageUrl=""
+      imageUrl={projectImage}
       para={para2}
     />
     <ServiceCard
       title="Firm/Company  Registration"
-      imageUrl=""
+      imageUrl= {firmImage}
       para={para2}
     />
     <ServiceCard
       title="Consultancy On Pollution Control "
-      imageUrl=""
+      imageUrl={polutionImage}
       para={para2}
     />
     <ServiceCard
       title="Consultancy On financial  Accounting"
-      imageUrl=""
+      imageUrl={accontingImage}
       para={para2}
     />
 
     <ServiceCard
       title="Gps Survey Services"
-      imageUrl=""
+      imageUrl={gpsImage}
       para={paraData}
     />
     <ServiceCard
       title="Land Survey Survices"
-      imageUrl=""
+      imageUrl={landImage}
       para={paraData2}
     />
     <ServiceCard
       title="Soil Investigation"
-      imageUrl=""
+      imageUrl={soilImage}
       para={paraData3}
     />
 <div>
@@ -203,7 +221,7 @@ function HomePage() {
  <section>
  <div className='faq_image_section'>
   <div>
-  <img className='faq_side_image'  src="" alt="faq_side_image" />
+  <img className='faq_side_image'  src={faqImage} alt="faq_side_image" />
   
 </div>
 

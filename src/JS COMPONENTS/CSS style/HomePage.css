@@ -117,7 +117,7 @@ text-align: center;
 
 
 .faq_image_section{
-  background-image: url('/public/Images/images/3.png');
+  background-image: url('/src/assets/3.png');
   background-repeat: no-repeat;
   display: flex;
 }

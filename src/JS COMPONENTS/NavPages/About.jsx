@@ -2,6 +2,7 @@ import React from 'react'
 import '../CSS style/About.css'
 import Footer from '../Homepage/Footer'
 import Slide from '../Homepage/Slides';
+import aboutImage from '/src/assets/civil engenear happy.jpg'
 
 
 function About() {
@@ -19,7 +20,7 @@ function About() {
 </div>
 <aside>
  <div>
-  <img className='about_image' src="/public/Images/images/civil engenear happy.jpg" alt="about us image" />
+  <img className='about_image' src={aboutImage} alt="about us image" />
  </div>
 </aside>
  </div>
