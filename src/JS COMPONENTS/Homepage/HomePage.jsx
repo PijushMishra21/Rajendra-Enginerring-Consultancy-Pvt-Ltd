@@ -66,20 +66,26 @@ const paraData3 = (
 
 function HomePage() {
 
-  
+ const para = (
+  <>
+    <p>
+    <b>Rajendra Engineering Consultancy</b> is your premier partner in the development of comprehensive master plans for mass areas, combining expertise, innovation, and a commitment to sustainability. Our tailored approach ensures that every aspect of the plan, from spatial layout to infrastructure integration.
+       </p>
+  </>
+);
 
-  const para = (
+  const para1 = (
     <>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum minima libero iusto architecto facere quae, illum laboriosam tenetur excepturi nisi temporibus reprehenderit ea, ipsa fugiat consequatur quod neque, aliquid maxime.
-      </p>
+      In today's digital age, geotagging has emerged as a vital tool in enhancing spatial data accuracy, efficiency, and legal compliance. Rajendra Engineering Consultancy harnesses the power of geotagging technology to provide cutting-edge solutions for a wide range of applications.      </p>
     </>
   );
 
   const para2 = (
     <>
       <p>
-      A civil project plan is a comprehensive document that outlines the scope, objectives, timeline, resources, and methodologies for executing  project. It serves as a roadmap for all stakeholders involved in the project, including engineers, architects, contractors, and clients. .      </p>
+      Our project report encapsulates a thorough analysis  of key aspects essential for project success. It encompasses: Provides background information, objectives, and scope of the project.
+ Outlines the approach, tools, and techniques employed for data collection, analysis, and implementation.   </p>
     </>
   );
 
@@ -90,11 +96,12 @@ function HomePage() {
     </>
   );
 
-  const images = ['/public/Images/images/slideimages/IMG-20240404-WA0011.jpg',
-  '/public/Images/images/slideimages/IMG-20240404-WA0020.jpg',
-  '/public/Images/images/slideimages/IMG-20240404-WA0022.jpg',
-  '/public/Images/images/slideimages/IMG-20240404-WA0023.jpg',
-  '/public/Images/images/slideimages/IMG-20240404-WA0028.jpg',
+  const images = [
+   '/src/assets/slideimage/IMG-20240403-WA0008.jpg',
+  '/src/assets/slideimage/IMG-20240403-WA0009.jpg',
+  '/src/assets/slideimage/IMG-20240403-WA0010.jpg',
+  '/src/assets/slideimage/IMG-20240403-WA0021.jpg',
+  '/src/assets/slideimage/IMG-20240403-WA0026.jpg',
  ]
  
   const [prevScrollPos, setPrevScrollPos] = useState(window.scrollY);
@@ -128,7 +135,7 @@ function HomePage() {
 <section className="para_section">
  <aside>
  <div className="Servises_heading_div">
-  <p className="Servises_sub_heading"> --Our Servises--</p>
+  <p className="Servises_sub_heading" > --Our Servises--</p>
   <h1 className="Servises_heading">What We are Doing ?</h1>
  </div>
 <article>
@@ -150,7 +157,7 @@ function HomePage() {
 <ServiceCard
       title="Geo tagging of land"
       imageUrl={GeotagImage}
-      para={para}
+      para={para1}
     />
 <ServiceCard
       title="Project Report  For New Project"

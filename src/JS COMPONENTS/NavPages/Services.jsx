@@ -5,6 +5,28 @@ import Footer from '../Homepage/Footer'
 import Slide from '../Homepage/Slides';
 import SlideImage from '../Homepage/SlideImage';
 
+/*images import strted */
+import PlanmakingImage from '/src/assets/civil image.jpg'
+import GeotagImage from '/src/assets/geo taging of land.jpg'
+import projectImage from '/src/assets/civil photo 2.jpg'
+import gpsImage from '/src/assets/gps-survey-service-.webp'
+import landImage from '/src/assets/landsurveying-services-.webp'
+import soilImage from '/src/assets/soil-land-survey-service-.webp'
+import firmImage from '/src/assets/civile image.jpg'
+import polutionImage from '/src/assets/polution control image.jpeg'
+import accontingImage from '/src/assets/Consultancy On financial Matters & Accounting.webp'
+import OrganisatioImage from '/src/assets/gis-survey-service-1000x1000.webp'
+import layoutImage from '/src/assets/land and-survey-service-.webp'
+import stationImage from '/src/assets/total-station-survey-service-250x250.webp'
+import dgpsImage from '/src/assets/gis-survey-service-1000x1000.webp'
+import gisImage from '/src/assets/gis-survey-service-1000x1000.webp'
+import geologiImage from '/src/assets/geological-survey-service-500x500.webp'
+import laserImage from '/src/assets/machine-alignment-services-.webp'
+import topoImage from '/src/assets/topographical-route-land-survey-service-500x500.jpeg'
+
+
+/*images import ended*/
+
 
 
     
@@ -31,7 +53,7 @@ function Services() {
  <div className='sercice_card'>
  <ServiceCard 
   title="Master Plan making & plotting of a mass areas"
-  imageUrl="/public/Images/images/civil image.jpg"
+  imageUrl={PlanmakingImage}
   para={<><p>
       A civil project plan is a comprehensive document that outlines the scope, objectives, timeline, resources, and methodologies for executing  project. It serves as a roadmap for all stakeholders involved in the project, including engineers, architects, contractors, and clients.
   </p>
@@ -40,7 +62,7 @@ function Services() {
   />
   <ServiceCard
    title="Geo tagging of land" 
-   imageUrl="/public/Images/images/geo taging of land.jpg"
+   imageUrl={GeotagImage}
    para={<>
    <p>
     A civil project plan is a comprehensive document that outlines the scope, objectives, timeline, resources, and methodologies for executing  project. It serves as a roadmap for all stakeholders involved in the project, including engineers, architects, contractors, and clients.
@@ -49,7 +71,7 @@ function Services() {
    />
   <ServiceCard
    title="Consultancy On Pollution Control"
-   imageUrl="/public/Images/slideimages/polution control image.jpeg" 
+   imageUrl={polutionImage}
    para={<>
     <p>
      A civil project plan is a comprehensive document that outlines the scope, objectives, timeline, resources, and methodologies for executing  project. It serves as a roadmap for all stakeholders involved in the project, including engineers, architects, contractors, and clients.
@@ -59,7 +81,7 @@ function Services() {
    />
 <ServiceCard
       title="Consultancy On financial  Accounting"
-      imageUrl="/public/Images/slideimages/Consultancy On financial Matters & Accounting.webp"
+      imageUrl={accontingImage}
       para={
         <>
     <p>
@@ -75,7 +97,7 @@ function Services() {
  
   <ServiceCard
    title="Firm/Company Registration"
-   imageUrl="/public/Images/images/civil photo 2.jpg" 
+   imageUrl={firmImage}
    para={<>
     <p>
      A civil project plan is a comprehensive document that outlines the scope, objectives, timeline, resources, and methodologies for executing  project. It serves as a roadmap for all stakeholders involved in the project, including engineers, architects, contractors, and clients.
@@ -85,7 +107,7 @@ function Services() {
 
 <ServiceCard  
       title="Project Report  For New Project"
-      imageUrl="/public/Images/images/civil photo 3.jpg" 
+      imageUrl={projectImage} 
    para={<>
     <p>
      A civil project plan is a comprehensive document that outlines the scope, objectives, timeline, resources, and methodologies for executing  project. It serves as a roadmap for all stakeholders involved in the project, including engineers, architects, contractors, and clients.
@@ -94,7 +116,7 @@ function Services() {
    />
 <ServiceCard 
   title="Consultancy On Quality Certification (ISI/ISO)  "
-  imageUrl="/public/Images/images/civil image.jpg"
+  imageUrl={accontingImage}
   para={<><p>
       A civil project plan is a comprehensive document that outlines the scope, objectives, timeline, resources, and methodologies for executing  project. It serves as a roadmap for all stakeholders involved in the project, including engineers, architects, contractors, and clients.
   </p>
@@ -104,7 +126,7 @@ function Services() {
 
 <ServiceCard 
   title="Organisational Structure Development  "
-  imageUrl="/public/Images/images/civil image.jpg"
+  imageUrl={OrganisatioImage}
   para={<><p>
       A civil project plan is a comprehensive document that outlines the scope, objectives, timeline, resources, and methodologies for executing  project. It serves as a roadmap for all stakeholders involved in the project, including engineers, architects, contractors, and clients.
   </p>
@@ -119,7 +141,7 @@ function Services() {
  <div className='sercice_card'>
 <ServiceCard
       title="Gps Survey Services"
-      imageUrl="/public/Images/images/gps-survey-service-.webp"
+      imageUrl={gpsImage}
       para= {<>
       <p><b>Price:</b>  ₹10,000/km</p>
       <p><b>Service Location:</b> India</p>
@@ -132,7 +154,7 @@ function Services() {
 
 <ServiceCard
        title="layout-and-lineout-survey-service"
-       imageUrl="/public/Images/images/land and-survey-service-.webp"
+       imageUrl={layoutImage}
       para= {<>
       <p><b>Price:</b> ₹7000/Day</p>
       <p><b>Service Location:</b> India</p>
@@ -145,7 +167,7 @@ function Services() {
     
 <ServiceCard
        title="Soil Investigation  and testing" 
-       imageUrl="/public/Images/images/soil-land-survey-service-.webp"
+       imageUrl={soilImage}
       para= {<>
       <p><b>Price:</b> ₹5,000</p>
       <p><b>Service Location:</b> India</p>
@@ -158,7 +180,7 @@ function Services() {
     
 <ServiceCard
       title="Total station survey service"
-      imageUrl="/public/Images/images/total-station-survey-service-250x250.webp"
+      imageUrl={stationImage}
       para= {<>
       <p><b>Price:</b> ₹7500/Day</p>
       <p><b>Service Location:</b> India</p>
@@ -175,7 +197,7 @@ function Services() {
  <div className='sercice_card'>
 <ServiceCard
       title="DGPS-survey-service"
-      imageUrl="/public/Images/images/dgps-survey-service-500x500.webp"
+      imageUrl={dgpsImage}
       para= {<>
       <p><b>Price:</b> 10,000</p>
       <p><b>Service Location:</b> India</p>
@@ -187,7 +209,7 @@ function Services() {
     />
 <ServiceCard
       title="Land Survey Consultancy Service"
-      imageUrl="/public/Images/images/total-station-survey-service-250x250.webp"
+      imageUrl={landImage}
       para= {<>
       <p><b>Price:</b>₹7,500/Day</p>
       <p><b>Service Location:</b> India</p>
@@ -199,7 +221,7 @@ function Services() {
     />
 <ServiceCard
       title="land and-survey-service"
-      imageUrl="/public/Images/images/land and-survey-service-.webp"
+      imageUrl={layoutImage}
       para= {<>
       <p><b>Price:</b> 10,000</p>
       <p><b>Service Location:</b> India</p>
@@ -212,7 +234,7 @@ function Services() {
 
   <ServiceCard
       title="Topographical Land Survey "
-      imageUrl="/public/Images/images/topographical-route-land-survey-service-500x500.jpeg"
+      imageUrl={topoImage}
       para= {<>
       <p><b>Price:</b> ₹300/acre</p>
       <p><b>Service Location:</b> India</p>
@@ -229,7 +251,7 @@ function Services() {
  <div className='sercice_card'>
   <ServiceCard
       title="Geological Survey Service"
-      imageUrl="/public/Images/images/geological-survey-service-500x500.webp"
+      imageUrl={geologiImage}
       // para={paraData}
       para= {<>
       <p><b>Price:</b>  ₹5,200/Day </p>
@@ -243,7 +265,7 @@ function Services() {
 
 <ServiceCard
       title="Land Survey Survices"
-      imageUrl="/public/Images/images/landsurveying-services-.webp"
+      imageUrl={landImage}
       para={
         <>
         <p><b>Price:</b> ₹7500/Day</p>
@@ -255,7 +277,7 @@ function Services() {
  />
 <ServiceCard
      title="laser alignment"
-     imageUrl="/public/Images/images/machine-alignment-services-.webp"
+     imageUrl={laserImage}
       para= {<>
       <p><b>Price:</b>₹8,500/Day</p>
       <p><b>Service Location:</b> India</p>
@@ -267,7 +289,7 @@ function Services() {
     />
 <ServiceCard
       title="GIS Survey Service"
-      imageUrl="/public/Images/images/gis-survey-service-1000x1000.webp"
+      imageUrl={gisImage}
       para= {<>
       <p><b>Price:</b> ₹450 /acre </p>
       <p><b>Service Location:</b> India</p>
