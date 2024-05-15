@@ -1,16 +1,21 @@
-import React from 'react'
-import '../CSS style/SlideImage.css'
+// import React from 'react'
+import '../CSS style/Slides.css'
+import Image1 from '/src/assets/slideimage/IMG-20240403-WA0008.jpg'
+import Image2 from '/src/assets/slideimage/IMG-20240403-WA0009.jpg'
+import Image3 from '/src/assets/slideimage/IMG-20240403-WA0010.jpg'
+import Image4 from '/src/assets/slideimage/IMG-20240403-WA0021.jpg'
+import Image5 from '/src/assets/slideimage/IMG-20240403-WA0026.jpg'
 
-function Slide( ) {
+
+function Slide({direction ="right"} ) {
  const images =
   [
- '/public/Images/slideimages/IMG-20240404-WA0004.jpg',
- '/public/Images/slideimages/IMG-20240404-WA0013.jpg',
- '/public/Images/slideimages/IMG-20240404-WA0018.jpg',
- '/public/Images/slideimages/IMG-20240404-WA0016.jpg',
- '/public/Images/slideimages/IMG-20240404-WA0001.jpg',
- '/public/Images/slideimages/IMG-20240404-WA0008.jpg',
- '/public/Images/slideimages/IMG-20240404-WA0025.jpg',
+ Image1,
+ Image2,
+ Image3,
+ Image4,
+ Image5,
+
 ]
 
 
@@ -18,7 +23,7 @@ function Slide( ) {
     <div>
      <section>
      
-     <div className="marquee-container">
+     <div className={`marquee-container ${direction}`}>
       <div>
         
         <p className='marquee_heading'>
@@ -39,3 +44,4 @@ function Slide( ) {
 }
 
 export default Slide;
+

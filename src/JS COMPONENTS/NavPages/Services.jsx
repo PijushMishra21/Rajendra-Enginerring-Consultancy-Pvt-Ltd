@@ -43,11 +43,11 @@ function Services() {
 </div>
 <section>
  <div className='service_heading_div'>
-  <p className='service_sub_heading'>--Our Engineering Services-- </p>
-  <h1 className='service_heading'>What Services We are Provide ?</h1>
-  <p className='service_para'>With 23 years of experience and a dedicated professional and support staff, <b>Rajendra Engineering Consultancy</b> has a broad range of market sectors that we provide our civil engineering services to in the Greater Philadelphia and New Jersey areas.At Rajendra Engineering Consultancy, we specialize in civil engineering and infrastructure projects, including urban planning and design. While our primary focus is on larger-scale projects, we can offer insights and expertise to help you maximize space utilization and create attractive living or working environments.
+  <p className='service_sub_heading' data-aos='fade-right'>--Our Engineering Services-- </p>
+  <h1 className='service_heading' data-aos='fade-left'>What Services We are Provide ?</h1>
+  <p className='service_para' data-aos='zoom-in-up'>With 23 years of experience and a dedicated professional and support staff, <b>Rajendra Engineering Consultancy</b> has a broad range of market sectors that we provide our civil engineering services to in the Greater Philadelphia and New Jersey areas.At Rajendra Engineering Consultancy, we specialize in civil engineering and infrastructure projects, including urban planning and design. While our primary focus is on larger-scale projects, we can offer insights and expertise to help you maximize space utilization and create attractive living or working environments.
   </p>
-  <p><b>We offer engineering services in the following areas:</b></p>
+  <p data-aos='zoom-in-down'><b>We offer engineering services in the following areas:</b></p>
   </div>
   
  <div className='sercice_card'>
@@ -136,7 +136,7 @@ function Services() {
    
     </div> 
  <div className='service_heading_div'>
- <h2 className='survey_heading'>--Our Survey services--</h2>
+ <h2 className='survey_heading' data-aos='fade-in'>--Our Survey services--</h2>
  </div>
  <div className='sercice_card'>
 <ServiceCard

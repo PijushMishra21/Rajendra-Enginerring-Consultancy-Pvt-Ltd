@@ -1,13 +1,22 @@
 import React, { useState,useEffect } from 'react';
 import  '../CSS style/SlideImage.css';
+import Image6 from '/src/assets/civile image.jpg'
+import Image7 from '/src/assets/jcb.jpg'
+import Image8 from '/src/assets/polution control image.jpeg'
+import Image9 from '/src/assets/civile image.jpg'
+import Image10 from '/src/assets/Consultancy On financial Matters & Accounting.webp'
+
+
+
+
 
 function SlideImage() {
   const Images = [
-    '/public/Images/slideimages/engeneer.jpg',
-    '/public/Images/slideimages/medium-shot-engineer.jpg',
-    '/public/Images/slideimages/polution control image.jpeg',
-    '/public/Images/slideimages/Consultancy On financial Matters & Accounting.webp',
-    '/public/Images/images/civile image.jpg',
+    Image6,
+    Image7,
+    Image8,
+    Image9,
+    Image10,
   ];
 
 

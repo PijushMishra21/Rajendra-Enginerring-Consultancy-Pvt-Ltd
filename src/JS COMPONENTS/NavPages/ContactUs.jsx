@@ -53,9 +53,9 @@ function ContactForm() {
   };
 
   return (
-    <div>
+    <div data-aos='fade'>
       <div className='contact-container'>
-    <div className="contact-form-container">
+    <div className="contact-form-container" data-aos='fade'>
       <p className='contact_us_sub_heading'>--Want to contact with us--</p>
       <h1 className='contact_us_heading'>Request Call back__</h1>
       <form onSubmit={handleSubmit} id='contact_form'>
@@ -75,10 +75,10 @@ function ContactForm() {
           <label htmlFor="message">Your Message:</label>
           <textarea id="message" name="message" rows="5" value={formData.message} onChange={handleChange} required />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" data-aos='fade'>Submit</button>
       </form>
     </div>
-    <aside className='adress_section'>
+    <aside className='adress_section' data-aos='fade'>
       <h2 className='contact_us_heading'>Contact Us :</h2>
       <address>
       <FaPhoneAlt />

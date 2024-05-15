@@ -55,10 +55,10 @@ function FAQ() {
      <div>
      {/* <img className='faq-image' src="../src/assets/3.png" alt="" /> */}
     <div className="faq-container">
-     <h1 className='h1'>FAQ</h1>
+     <h1 className='h1' data-aos='fade'>FAQ</h1>
       {faqData.map((item, index) => (
         <div className="faq-item" key={index}>
-          <div className="question" onClick={() => toggleAnswer(index)}>
+          <div className="question" onClick={() => toggleAnswer(index)} data-aos='fade'>
             {item.question}
             <span className={`toggle-icon ${activeIndex === index ? 'active' : ''}`}>{activeIndex === index ? <FaMinus /> : <FaMedkit /> }</span>
           </div>

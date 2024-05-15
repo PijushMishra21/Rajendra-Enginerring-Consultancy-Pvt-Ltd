@@ -11,7 +11,7 @@
 
 
 
-import React, {  } from "react";
+import React , {  } from "react";
 import ReactDOM from 'react-dom/client'
 import HomePage from '../JS COMPONENTS/Homepage/HomePage'
 import { BrowserRouter, Routes, Route,  } from "react-router-dom";
@@ -26,12 +26,13 @@ import ScrollToTop from "../JS COMPONENTS/Homepage/ScrollToTop";
 
 
 
+  
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
   <BrowserRouter>
   <ScrollToTop  />
-     <Header />
+     <Header  />
    <Routes>
 
           <Route path='/' element={<HomePage />}/>

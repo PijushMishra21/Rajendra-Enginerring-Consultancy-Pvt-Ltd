@@ -1,17 +1,28 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaPhoneAlt,FaPeriscope   } from "react-icons/fa";
 import '../CSS style/Header.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link, NavLink } from 'react-router-dom';
-import require from 'react'
 import logo from '/src/assets/civil_enginear_man_logo-removebg-preview.png'
 
 function Header() {
-  
+//   const [isScrolled, setIsScrolled] = useState(false);
+
+// window.addEventListener('scroll', function(){
+//   if(this.window.scrollY > 100){
+//     setIsScrolled (true);
+//     console.log('scrolling')
+//   }
+//   else{
+//     setIsScrolled(false);
+//     console.log('scrolling not')
+
+//   }
+// });
 
   return (
     <div>
-     <header id="header">
+     <header id="header" >
      <div className="top_bar">
 						<p className="para_header">{`WE'VE OVER 23 YEARS OF EXPERIENCE`}</p>
 						<ul className='header_ul'>
@@ -45,7 +56,7 @@ function Header() {
               <NavLink className="nav-link " to="/contactUs">Contact</NavLink>
             </li>           
           </ul>
-          <div className='span-div'>
+          <div className='span-div' data-aos='fade'>
              <Link to="/contactUs"> <button className='span'>Get a Sketch</button></Link>
            </div>         
         </div>

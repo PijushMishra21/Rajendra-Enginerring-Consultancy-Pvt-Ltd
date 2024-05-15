@@ -13,24 +13,24 @@ function ServiceCard({title,imageUrl,para,price,duration,type,accuracy,quantity}
 
 
   return (
-    <div>
+    <div data-aos='zoom-in'>
       
       <div className="service_card">
   <div className="service_card_image_div">
     <img className="service_card_image" src={imageUrl} alt="Project Image" />
  
   </div>
-  <div className="service_card_title">
+  <div className="service_card_title" data-aos='fade'>
     
        <h4>{title}</h4>
     
     </div>
-  <div className="service_card_description">
+  <div className="service_card_description" data-aos='fade'>
 
       <p className='para'>{para}</p>
   </div>
   <Link to='/ContactUs'>
-  <button className='Quote_btn'>
+  <button className='Quote_btn' data-aos='fade'>
     Get Quote
   </button>
   </Link>
