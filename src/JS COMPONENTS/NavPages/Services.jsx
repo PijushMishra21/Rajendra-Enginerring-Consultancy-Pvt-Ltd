@@ -23,8 +23,6 @@ import gisImage from '/src/assets/gis-survey-service-1000x1000.webp'
 import geologiImage from '/src/assets/geological-survey-service-500x500.webp'
 import laserImage from '/src/assets/machine-alignment-services-.webp'
 import topoImage from '/src/assets/topographical-route-land-survey-service-500x500.jpeg'
-
-
 /*images import ended*/
 
 

@@ -20,6 +20,13 @@ function Header() {
 //   }
 // });
 
+
+
+const [showLinks, setShowLinks] = useState(false);
+  const toggleLinks = () => {
+    setShowLinks(!showLinks); 
+  };
+
   return (
     <div>
      <header id="header" >
@@ -39,7 +46,8 @@ function Header() {
     <nav className="navbar navbar-expand-sm navbar-light ">
       <div className="">
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto">
+        <button className="toggle-menu" onClick={toggleLinks}  aria-label="Toggle Menu">&#9776;</button>
+          <ul  className={`navbar-nav ml-auto ${showLinks ? 'show-links' : ''}`}>
             <li className="nav-item ">
               <NavLink className="nav-link " to="/">Home</NavLink>
             </li>

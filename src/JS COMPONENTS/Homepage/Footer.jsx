@@ -46,9 +46,9 @@ function Footer() {
             <li className='footer_li'><Link to="/about" className='footer_a'>About us </Link></li>
             <li className='footer_li'><Link to="/Services" className='footer_a'>Other Servises</Link></li>
             <li className='footer_li'><Link to="/WorkSample" className='footer_a'>Work Sample</Link></li>
-            <li className='footer_li'><Link to="" className='footer_a'>Contact us</Link></li>
-            <li className='footer_li'><Link to="" className='footer_a'>Contact us</Link></li>
             <li className='footer_li'><Link to="/ContactUs" className='footer_a'>Contact us</Link></li>
+            {/* <li className='footer_li'><Link to="" className='footer_a'>Contact us</Link></li> */}
+            {/* <li className='footer_li'><Link to="/ContactUs" className='footer_a'>Contact us</Link></li> */}
           </ul>
         </div>
         <hr />

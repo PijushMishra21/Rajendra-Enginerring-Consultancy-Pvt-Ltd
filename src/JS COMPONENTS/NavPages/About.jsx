@@ -8,7 +8,7 @@ import aboutImage from '/src/assets/civil engenear happy.jpg'
 function About() {
   return (
     <div>
-    <section >
+    <section className='about-sections'>
       <div className='about_us_div'>
 <div className='about_heading_div'>
  <p className='About_us_sub_heading'>--We are Building
@@ -18,7 +18,7 @@ function About() {
  </h1>
  <p className='about_sub_para'>The firm REC stared to provide new project planning and implementation solutions both legal and engineering to new comers as well as existing players units who wanted to go in for expansion, modification, aquigition or diversification. The firm now provides personnel selection and recruitment support services to business organization.</p>
 </div>
-<aside>
+<aside className='about-image-aside'>
  <div>
   <img className='about_image' src={aboutImage} alt="about us image" />
  </div>
