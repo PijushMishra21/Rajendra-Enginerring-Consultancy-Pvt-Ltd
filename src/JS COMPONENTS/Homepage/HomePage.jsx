@@ -144,7 +144,7 @@ function HomePage() {
   </article>
   <section className="service_card_section" >
   <ServiceCard 
-      title="Master Plan making & plotting of a mass areas"
+      title="Master Plan making & plotting of mass areas"
       imageUrl={PlanmakingImage}
       para={para}
     />

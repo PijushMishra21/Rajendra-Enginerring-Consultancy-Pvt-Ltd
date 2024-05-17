@@ -22,7 +22,7 @@ function ServiceCard({title,imageUrl,para,price,duration,type,accuracy,quantity}
   </div>
   <div className="service_card_title" data-aos='fade'>
     
-       <h4>{title}</h4>
+       <h5>{title}</h5>
     
     </div>
   <div className="service_card_description" data-aos='fade'>
