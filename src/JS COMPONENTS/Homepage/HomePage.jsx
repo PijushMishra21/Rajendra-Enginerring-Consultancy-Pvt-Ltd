@@ -132,6 +132,7 @@ function HomePage() {
  </div>
 <article>
  <div className="srvise_list_div">
+<article className='srvise_list_para_div'>
   <p className="srvise_list_para" data-aos='fade-up'><b>Topographical Survey and Land Use Mapping:</b>Precise topographical surveys and land use mapping to facilitate informed decision-making and regulatory compliance.
 
 <b>Litigation Land Demarcation and Partition Commission:</b> Expert assistance in resolving land disputes through precise demarcation and partition commission services.
@@ -140,6 +141,7 @@ function HomePage() {
 
 <b>Infrastructure Planning:</b> Design and planning services for sewerage, drainage, and water pipe networks to ensure efficient and reliable infrastructure systems..
   </p>
+  </article>
   <section className="service_card_section" >
   <ServiceCard 
       title="Master Plan making & plotting of a mass areas"

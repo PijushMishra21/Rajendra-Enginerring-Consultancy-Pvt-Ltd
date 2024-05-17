@@ -68,9 +68,38 @@
  margin-left: 10px;
  margin-right: 150px;
 }
-
-
+.Servises_sub_heading{
+  font-size: 25px;
+  color:rgb(249, 105, 2);
+  font-weight: bold;
  
+ }
+ .Servises_heading{
+  font-weight: bold;
+  color: rgb(2, 2, 52);
+  margin-bottom: 40px;
+ }
+ .srvise_list_para_div{
+ }
+ .srvise_list_para{
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align:center;
+  font-size: 12px;
+ }
+ .work_sample_heading{
+  font-size: 35px;
+ font-weight: bold;
+ color: rgb(2, 2, 52);
+ margin-bottom: 40px;
+}
+.work_sample_para{
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align:center;
+  font-size: 12px;
+
+}
  
 
  .business_image {
@@ -223,8 +252,13 @@ margin-bottom: 20px;
   color:rgb(249, 105, 2);
   font-weight: bold;
   text-decoration: underline;
+  
  }
-
+ .para{
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
 
 /*// servise page ended// */
 
