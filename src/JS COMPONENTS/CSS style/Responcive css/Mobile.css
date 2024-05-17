@@ -303,15 +303,23 @@ margin-bottom: 20px;
 .adress_section{
  /* max-width: 550px; */
  width: 100%;
- margin:  auto;
+ margin:  5px;
  padding: 20px;
  background-color: #f9f9f9;
  border-radius: 10px;
  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
- height: 400px;
+ height: auto;
+ margin-bottom: 250px;
 }
 
-
+.address .gmap-div{
+  width: 300px;
+  height: 300px;
+}
+.gmap-iframe{
+  width: 300px;
+  height: 300px;
+}
 /* //contact us page ended // */
 
 .footer-container {

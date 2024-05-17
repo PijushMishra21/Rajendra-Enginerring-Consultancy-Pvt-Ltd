@@ -10,7 +10,7 @@ body{
  --bg_color:rgb(3, 3, 103);
 }
 
-#header{
+.header{
  position:absolute;
  top: 0;
  width: 100%;

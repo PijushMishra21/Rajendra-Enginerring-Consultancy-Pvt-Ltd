@@ -28,8 +28,9 @@ const [showLinks, setShowLinks] = useState(false);
   };
 
   return (
-    <div>
-     <header id="header" >
+    
+     <header className="header"  aria-labelledby="Website Banner">
+      <section>
      <div className="top_bar">
 						<p className="para_header">{`WE'VE OVER 23 YEARS OF EXPERIENCE`}</p>
 						<ul className='header_ul'>
@@ -37,13 +38,14 @@ const [showLinks, setShowLinks] = useState(false);
 							<li className="header_li1"><i><FaPeriscope /></i> Mirzabazar, Medinipur - 721101</li>
 						</ul>
 				</div>
+        </section>
       <div className="container">
 					
           <div className="main_header">
           <img className="header_image" src={logo}alt="website-logo" />
            <h1 className="main_heading">Rajendra Engineering Consultancy</h1>
         
-    <nav className="navbar navbar-expand-sm navbar-light ">
+    <nav className="navbar navbar-expand-sm navbar-light "   aria-label="Main Navigation">
       <div className="">
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <button className="toggle-menu" onClick={toggleLinks}  aria-label="Toggle Menu">&#9776;</button>
@@ -77,7 +79,7 @@ const [showLinks, setShowLinks] = useState(false);
 
 </header>
 
-</div>
+
   )
 }
 

@@ -20,6 +20,10 @@
   list-style-type: none;
     
 } */
+.card-title{
+  /* font-size: 1.5rem; */
+  font-size: 22px;
+}
 .service_card_image{
  width: 100%;
  opacity: 1;

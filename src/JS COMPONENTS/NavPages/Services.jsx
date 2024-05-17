@@ -33,13 +33,14 @@ function Services() {
 
 
   return (
-    <div>
-      
-
+   <>
+      <main>
+<section className='SlideImage-section'>
       <div className='SlideImage'> 
    <SlideImage  />
 </div>
-<section>
+</section>
+<section className='service-main-section'>
  <div className='service_heading_div'>
   <p className='service_sub_heading' data-aos='fade-right'>--Our Engineering Services-- </p>
   <h1 className='service_heading' data-aos='fade-left'>What Services We are Provide ?</h1>
@@ -308,8 +309,8 @@ function Services() {
  <Slide />
  <Footer />
 </section>
-    </div>
-  )
+ </main>
+  </>)
 }
 
 export default Services

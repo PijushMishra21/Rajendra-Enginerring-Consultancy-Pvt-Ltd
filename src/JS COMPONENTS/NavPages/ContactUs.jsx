@@ -3,7 +3,7 @@ import '../CSS style/ContactUs.css';
 import {} from '@formspree/react';
 import Footer from '../Homepage/Footer';
 // import GoogleMapApi from './GoogleMapApi';
-import { FaPhoneAlt,FaPeriscope   } from "react-icons/fa";
+import { FaPhoneAlt,FaPeriscope,FaEnvelope   } from "react-icons/fa";
 import Slide from '../Homepage/Slides';
 
 function ContactForm() {
@@ -53,6 +53,7 @@ function ContactForm() {
   };
 
   return (
+    <main>
     <div data-aos='fade'>
       <div className='contact-container'>
     <div className="contact-form-container" data-aos='fade'>
@@ -80,16 +81,26 @@ function ContactForm() {
     </div>
     <aside className='adress_section' data-aos='fade'>
       <h2 className='contact_us_heading'>Contact Us :</h2>
-      <address>
-      <FaPhoneAlt />
+      <address className='address'>
+      
         <p>
+        <FaPhoneAlt className='icon'/> 
+        
           <b>Mobile Number :</b> (+91) 8535912770 / (+91) 9932731756</p>
         <p>
-          <b>Email : </b>rajendraenggconsultancysales@gmail.com</p>
-          <FaPeriscope />
-        <p><b>Office Address : </b></p>
+        <FaEnvelope className='icon'/>
+          <b>Email : </b>rajendraenggconsultancysales@gmail.com
+          </p>
+         
+        <p> <FaPeriscope className='icon'/>
+          <b>Office Address : </b>
+          </p>
       <p>Mirzabazar, Medinipur, West Bengal - 721101 </p>
       {/* <GoogleMapApi /> */}
+      <div className='gmap-div'>
+      <iframe className='gmap-iframe' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29507.607960936646!2d87.28068241083984!3d22.412045000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d5bb5fce7a7a9%3A0x476bfef8da541819!2sMirzabazar%20Vegetables%20Market!5e0!3m2!1sen!2sin!4v1715944039856!5m2!1sen!2sin"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" aria-label='google map'>
+      </iframe>
+      </div>
       </address>
     </aside>
 
@@ -98,6 +109,7 @@ function ContactForm() {
     <Slide />
     <Footer />
     </div>
+    </main>
   );
 }
 export default ContactForm;

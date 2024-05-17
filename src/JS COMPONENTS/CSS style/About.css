@@ -1,6 +1,6 @@
 .about_us_div{
  margin-top: 20px;
- background-color: rgb(251, 222, 6);
+ background-color:#F5D90A;
  margin-left: 100px;
  margin-right: 100px;
  height: 400px;
@@ -49,7 +49,7 @@
 }
 .About_us_sub_heading{
  font-size: 25px;
- color:rgb(249, 105, 2);
+ color:#B24B01;
  font-weight: bold;
 }
 .About_us_para{

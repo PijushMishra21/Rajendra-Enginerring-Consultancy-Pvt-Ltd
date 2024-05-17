@@ -7,7 +7,7 @@ import aboutImage from '/src/assets/civil engenear happy.jpg'
 
 function About() {
   return (
-    <div>
+ <main>
     <section className='about-sections'>
       <div className='about_us_div'>
 <div className='about_heading_div'>
@@ -46,7 +46,7 @@ function About() {
   <Slide />
 
         <Footer />
-    </div>
+  </main>
   )
 }
 

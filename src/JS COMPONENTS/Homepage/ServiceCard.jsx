@@ -13,6 +13,7 @@ function ServiceCard({title,imageUrl,para,price,duration,type,accuracy,quantity}
 
 
   return (
+  
     <div data-aos='zoom-in'>
       
       <div className="service_card">
@@ -22,7 +23,7 @@ function ServiceCard({title,imageUrl,para,price,duration,type,accuracy,quantity}
   </div>
   <div className="service_card_title" data-aos='fade'>
     
-       <h5>{title}</h5>
+       <h1 className='card-title'>{title}</h1>
     
     </div>
   <div className="service_card_description" data-aos='fade'>
@@ -37,6 +38,7 @@ function ServiceCard({title,imageUrl,para,price,duration,type,accuracy,quantity}
   </div>
 
     </div>
+   
   )
 }
 

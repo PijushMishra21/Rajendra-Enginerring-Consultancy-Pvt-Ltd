@@ -18,17 +18,17 @@ function Footer() {
      <div className="soscial_media_icon_div">
         <ul className='ul'>
           <li className='li'>
-            <Link to="https://www.facebook.com/profile.php?id=61558450775616" className='a'>
+            <Link to="https://www.facebook.com/profile.php?id=61558450775616" className='a' aria-label="Visit our facebook profile">
             <FaFacebookF />
             </Link>
           </li>
           <li className='li'>
-            <Link to="https://youtube.com/@rajendraengineeringconsult391?feature=shared" className='a'>
+            <Link to="https://youtube.com/@rajendraengineeringconsult391?feature=shared" className='a' aria-label="check our youtube handle">
             <FaYoutube  />
             </Link>
           </li>
           <li className='li'>
-            <Link to="https://wa.me/message/WIDDB25G6S4YJ1" className='a'>
+            <Link to="https://wa.me/message/WIDDB25G6S4YJ1" className='a' aria-label="chat us  with whatsapp ">
             <FaWhatsapp      />
             </Link>
           </li>

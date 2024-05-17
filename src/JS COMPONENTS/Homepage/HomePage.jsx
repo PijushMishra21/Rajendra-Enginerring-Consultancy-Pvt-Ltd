@@ -116,8 +116,9 @@ function HomePage() {
 
   return (
     <div>
+      <div>
      <Header  />
-     
+     </div>
 <main className="main_page1">
  <section className="image_section">
  <div className="image_section_div">
@@ -200,7 +201,7 @@ function HomePage() {
   <section className='work_sample_section'>
   <div className="work_sample_heading_div">
   <p className="work_sample_sub_heading" data-aos='fade-left'> --Our Work Sample--</p>
-  <h1 className="work_sample_heading" data-aos='fade-right' >Project Overview</h1>
+  <h2 className="work_sample_heading" data-aos='fade-right' >Project Overview</h2>
  </div>
  <article>
  <p className="work_sample_para" data-aos='zoom-in'>The business plan is the foundation of your investor package. However, most entrepreneurs are too busy with other priorities – such as developing products, finding customers, and recruiting a team – to prepare a compelling business plan. <b>Since 2000</b>, we helped many <b>HUF</b> or <b>Industries Comprehensive Solutions</b> for Industrial and Municipal Development At <b>Rajendra Engineering Consultancy</b>, we offer a diverse range of services tailored to meet the needs of industrial and municipal projects.Our expertise encompasses.
@@ -219,7 +220,7 @@ function HomePage() {
 </main>
 
 
- <section>
+ <section className='faq-section'>
  <div className='faq_image_section'>
   <div data-aos='fade-right'>
   <img className='faq_side_image'  src={faqImage} alt="faq_side_image" />

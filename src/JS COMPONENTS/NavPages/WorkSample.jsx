@@ -9,7 +9,7 @@ function WorkSample() {
 
 
   return (
-    <div>
+  <main>
     <section>
       <div>
         <article>
@@ -28,7 +28,7 @@ function WorkSample() {
       </div>
       <Footer />
     </section>
-    </div>
+  </main>
   )
 }
 
