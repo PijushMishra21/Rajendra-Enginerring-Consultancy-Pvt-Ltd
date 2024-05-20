@@ -6,7 +6,20 @@ import Footer from '../Homepage/Footer';
 import { FaPhoneAlt,FaPeriscope,FaEnvelope   } from "react-icons/fa";
 import Slide from '../Homepage/Slides';
 
+
+import Image1 from '/src/assets/slideimage/IMG-20240403-WA0008.jpg'
+import Image2 from '/src/assets/slideimage/IMG-20240403-WA0009.jpg'
+import Image3 from '/src/assets/slideimage/IMG-20240403-WA0010.jpg'
+import Image4 from '/src/assets/slideimage/IMG-20240403-WA0021.jpg'
+import Image5 from '/src/assets/slideimage/IMG-20240403-WA0026.jpg'
+
+
 function ContactForm() {
+  const Images1 =
+  [
+  Image1,Image2,Image3,  Image4, Image5,
+  
+  ]
   const [formData, setFormData] = useState({
     name: '',
     number:'',
@@ -86,7 +99,7 @@ function ContactForm() {
         <p>
         <FaPhoneAlt className='icon'/> 
         
-          <b>Mobile Number :</b> (+91) 8535912770 / (+91) 9932731756</p>
+          <b>Mobile Number :</b> (+91) 3222314833 / (+91) 9932731756</p>
         <p>
         <FaEnvelope className='icon'/>
           <b>Email : </b>rajendraenggconsultancysales@gmail.com
@@ -95,18 +108,19 @@ function ContactForm() {
         <p> <FaPeriscope className='icon'/>
           <b>Office Address : </b>
           </p>
-      <p>Mirzabazar, Medinipur, West Bengal - 721101 </p>
+      <p>BIJOYKUTIR, opp. (Kidzee School), Midnapore, West Bengal 721101 </p>
       {/* <GoogleMapApi /> */}
       <div className='gmap-div'>
-      <iframe className='gmap-iframe' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29507.607960936646!2d87.28068241083984!3d22.412045000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d5bb5fce7a7a9%3A0x476bfef8da541819!2sMirzabazar%20Vegetables%20Market!5e0!3m2!1sen!2sin!4v1715944039856!5m2!1sen!2sin"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" aria-label='google map'>
-      </iframe>
+      {/* <iframe className='gmap-iframe' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29507.607960936646!2d87.28068241083984!3d22.412045000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d5bb5fce7a7a9%3A0x476bfef8da541819!2sMirzabazar%20Vegetables%20Market!5e0!3m2!1sen!2sin!4v1715944039856!5m2!1sen!2sin"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" aria-label='google map'> */}
+      <iframe className='gmap-iframe'  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29508.256736487085!2d87.27953732013708!3d22.40899025163539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d5b21d4962879%3A0xf1e9ab4d7678f777!2sRajendra%20Engineering%20Consultancy!5e0!3m2!1sen!2sin!4v1716197293671!5m2!1sen!2sin"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" aria-label='google map'></iframe>
+      {/* </iframe> */}
       </div>
       </address>
     </aside>
 
 
     </div>
-    <Slide />
+    <Slide  direction="left" images={Images1} />
     <Footer />
     </div>
     </main>

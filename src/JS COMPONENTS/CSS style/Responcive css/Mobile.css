@@ -4,6 +4,10 @@
 
 
 @media only screen and (max-width: 768px) {
+  body{
+      padding-top: 130px;
+     
+  }
  .header_image{
   margin-top: 10px;
   margin-right: 10px;
@@ -43,7 +47,7 @@
  font-size: 9px;
 }
 .main_heading {
- font-size: 17px;
+ font-size: 12px;
 
 }
 /* .toggle-menu{

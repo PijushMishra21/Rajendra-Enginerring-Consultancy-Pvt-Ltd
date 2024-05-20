@@ -5,7 +5,22 @@ import Slide from '../Homepage/Slides';
 import aboutImage from '/src/assets/civil engenear happy.jpg'
 
 
+import Image1 from '/src/assets/slideimage/IMG-20240403-WA0008.jpg'
+import Image2 from '/src/assets/slideimage/IMG-20240403-WA0009.jpg'
+import Image3 from '/src/assets/slideimage/IMG-20240403-WA0010.jpg'
+import Image4 from '/src/assets/slideimage/IMG-20240403-WA0021.jpg'
+import Image5 from '/src/assets/slideimage/IMG-20240403-WA0026.jpg'
+
+
+
+
 function About() {
+  const Images1 =
+  [
+  Image1,Image2,Image3,  Image4, Image5,
+  
+  ]
+
   return (
  <main>
     <section className='about-sections'>
@@ -43,7 +58,7 @@ function About() {
           </div>
         </article>
   </section>
-  <Slide />
+  <Slide direction="left" images={Images1} />
 
         <Footer />
   </main>

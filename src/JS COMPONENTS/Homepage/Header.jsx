@@ -29,56 +29,99 @@ const [showLinks, setShowLinks] = useState(false);
 
   return (
     
-     <header className="header"  aria-labelledby="Website Banner">
-      <section>
-     <div className="top_bar">
-						<p className="para_header">{`WE'VE OVER 23 YEARS OF EXPERIENCE`}</p>
-						<ul className='header_ul'>
-							<li className="header_li1"><i><FaPhoneAlt  className="icon_telephone"/></i> 9932737156 / 8535912770</li>
-							<li className="header_li1"><i><FaPeriscope /></i> Mirzabazar, Medinipur - 721101</li>
-						</ul>
-				</div>
-        </section>
-      <div className="container">
+//      <header className="header"  aria-labelledby="Website Banner">
+//       <section>
+//      <div className="top_bar">
+// 						<p className="para_header">{`WE'VE OVER 23 YEARS OF EXPERIENCE`}</p>
+// 						<ul className='header_ul'>
+// 							<li className="header_li1"><i><FaPhoneAlt  className="icon_telephone"/></i> 9932737156 / 8535912770</li>
+// 							<li className="header_li1"><i><FaPeriscope /></i> Mirzabazar, Medinipur - 721101</li>
+// 						</ul>
+// 				</div>
+//         </section>
+//       <div className="container">
 					
-          <div className="main_header">
-          <img className="header_image" src={logo}alt="website-logo" />
-           <h1 className="main_heading">Rajendra Engineering Consultancy</h1>
+//           <div className="main_header">
+//           <img className="header_image" src={logo}alt="website-logo" />
+//            <h1 className="main_heading">Rajendra Engineering Consultancy</h1>
         
-    <nav className="navbar navbar-expand-sm navbar-light "   aria-label="Main Navigation">
-      <div className="">
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <button className="toggle-menu" onClick={toggleLinks}  aria-label="Toggle Menu">&#9776;</button>
-          <ul  className={`navbar-nav ml-auto ${showLinks ? 'show-links' : ''}`}>
-            <li className="nav-item ">
-              <NavLink className="nav-link " to="/">Home</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link " to="/about">About</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link " to="/Services" > Services</NavLink>
-            </li>                                                                 
-            <li className="nav-item">
-              <NavLink className="nav-link " to="/WorkSample">WorkSample</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link " to="/contactUs">Contact</NavLink>
-            </li>           
-          </ul>
-          <div className='span-div' data-aos='fade'>
-             <Link to="/contactUs"> <button className='span'>Get a Sketch</button></Link>
-           </div>         
+//     <nav className="navbar navbar-expand-sm navbar-light "   aria-label="Main Navigation">
+//       <div className="">
+//         <div className="collapse navbar-collapse" id="navbarSupportedContent">
+//         <button className="toggle-menu" onClick={toggleLinks}  aria-label="Toggle Menu">&#9776;</button>
+//           <ul  className={`navbar-nav ml-auto ${showLinks ? 'show-links' : ''}`}>
+//             <li className="nav-item ">
+//               <NavLink className="nav-link " to="/">Home</NavLink>
+//             </li>
+//             <li className="nav-item">
+//               <NavLink className="nav-link " to="/about">About</NavLink>
+//             </li>
+//             <li className="nav-item">
+//               <NavLink className="nav-link " to="/Services" > Services</NavLink>
+//             </li>                                                                 
+//             <li className="nav-item">
+//               <NavLink className="nav-link " to="/WorkSample">WorkSample</NavLink>
+//             </li>
+//             <li className="nav-item">
+//               <NavLink className="nav-link " to="/contactUs">Contact</NavLink>
+//             </li>           
+//           </ul>
+//           <div className='span-div' data-aos='fade'>
+//              <Link to="/contactUs"> <button className='span'>Get a Sketch</button></Link>
+//            </div>         
+//         </div>
+//       </div>
+//     </nav>
+//   </div>
+//   <div>
+// </div>		
+// </div>
+
+// </header>
+<header className="header" aria-labelledby="Website Banner">
+  <section>
+    <div className="top_bar">
+      <p className="para_header">{`WE'VE OVER 23 YEARS OF EXPERIENCE`}</p>
+      <ul className='header_ul'>
+        <li className="header_li1"><i><FaPhoneAlt className="icon_telephone" /></i> 9932737156 / 8535912770</li>
+        <li className="header_li1"><i><FaPeriscope /></i> Mirzabazar, Medinipur - 721101</li>
+      </ul>
+    </div>
+  </section>
+  <div className="container">
+    <div className="main_header">
+      <div className="logo-heading">
+        <img className="header_image" src={logo} alt="website-logo" />
+        <h1 className="main_heading">Rajendra Engineering Consultancy</h1>
+      </div>
+      <button className="toggle-menu" onClick={toggleLinks} aria-label="Toggle Menu">&#9776;</button>
+    </div>
+    <nav className="navbar navbar-expand-sm navbar-light" aria-label="Main Navigation">
+      <div className={`collapse navbar-collapse ${showLinks ? 'show-links' : ''}`} id="navbarSupportedContent">
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/">Home</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/about">About</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/Services">Services</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/WorkSample">WorkSample</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink className="nav-link" to="/contactUs">Contact</NavLink>
+          </li>
+        </ul>
+        <div className='span-div' data-aos='fade'>
+          <Link to="/contactUs"> <button className='span'>Get a Sketch</button></Link>
         </div>
       </div>
     </nav>
   </div>
-  <div>
-</div>		
-</div>
-
 </header>
-
 
   )
 }

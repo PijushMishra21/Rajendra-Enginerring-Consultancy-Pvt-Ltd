@@ -27,15 +27,68 @@ import firmImage from '/src/assets/civile image.jpg'
 import polutionImage from '/src/assets/polution control image.jpeg'
 import accontingImage from '/src/assets/Consultancy On financial Matters & Accounting.webp'
 /*images imported ended*/
+import Image1 from '/src/assets/slideimage/IMG-20240403-WA0008.jpg'
+import Image2 from '/src/assets/slideimage/IMG-20240403-WA0009.jpg'
+import Image3 from '/src/assets/slideimage/IMG-20240403-WA0010.jpg'
+import Image4 from '/src/assets/slideimage/IMG-20240403-WA0021.jpg'
+import Image5 from '/src/assets/slideimage/IMG-20240403-WA0026.jpg'
 
 
 
 
 
+function HomePage() {
+  useEffect(()=>{
+    Aos.init({duration:1500});
+  },[])
 
+ const para = (
+  <>
+    <p>
+    <b>REC</b> is your premier partner in the development of comprehensive master plans for mass areas, combining expertise, innovation, and a commitment to sustainability. Our tailored approach ensures that every aspect of the plan, from spatial layout to infrastructure integration.
+       </p>
+  </>
+);
 
+  const para1 = (
+    <>
+      <p>
+      In today's digital age, geotagging has emerged as a vital tool in enhancing spatial data accuracy, efficiency, and legal compliance. Rajendra Engineering Consultancy harnesses the power of geotagging technology to provide cutting-edge solutions for a wide range of applications.      
+      </p>
+    </>
+  );
 
+  const para2 = (
+    <>
+      <>
+      Our project report encapsulates a thorough analysis  of key aspects essential for project success. It encompasses: Provides background information, objectives, and scope of the project.
+ Outlines the approach, tools, and techniques employed for data collection, analysis, and implementation.   
+ </>
+    </>
+  );
 
+  const para3 = (
+    <>
+      <p>
+      Rajendra Registration Services specializes in seamless firm and company registration. Our tailored consultancy ensures compliance and efficiency throughout the process. From documentation to final registration, we guide clients through legal requirements, expediting establishment. 
+      </p>
+    </>
+  );
+  const para4 = (
+    <>
+      <p>
+      Rajendra Financial Consultancy offers specialized services to streamline financial accounting processes. With a focus on accuracy, compliance, and transparency, our team provides tailored solutions for businesses of all sizes. From bookkeeping to financial reporting and taxation,  
+       </p>
+    </>
+  );
+  const para5 = (
+    <>
+      <p>
+      Rajendra Engineering Consultancy is dedicated to combating pollution with innovative, sustainable strategies. With expertise in environmental engineering, we offer tailored solutions for industries facing air, water, or soil pollution challenges.   
+      </p>
+    </>
+  );
+  
 
 
 const paraData = (
@@ -70,48 +123,11 @@ const paraData3 = (
   </>
 );
 
-function HomePage() {
-  useEffect(()=>{
-    Aos.init({duration:1500});
-  },[])
+const Images1 =
+[
+Image1,Image2,Image3,  Image4, Image5,
 
- const para = (
-  <>
-    <p>
-    <b>Rajendra Engineering Consultancy</b> is your premier partner in the development of comprehensive master plans for mass areas, combining expertise, innovation, and a commitment to sustainability. Our tailored approach ensures that every aspect of the plan, from spatial layout to infrastructure integration.
-       </p>
-  </>
-);
-
-  const para1 = (
-    <>
-      <p>
-      In today's digital age, geotagging has emerged as a vital tool in enhancing spatial data accuracy, efficiency, and legal compliance. Rajendra Engineering Consultancy harnesses the power of geotagging technology to provide cutting-edge solutions for a wide range of applications.      </p>
-    </>
-  );
-
-  const para2 = (
-    <>
-      <p>
-      Our project report encapsulates a thorough analysis  of key aspects essential for project success. It encompasses: Provides background information, objectives, and scope of the project.
- Outlines the approach, tools, and techniques employed for data collection, analysis, and implementation.   </p>
-    </>
-  );
-
-  const para3 = (
-    <>
-      <p>
-      A civil project plan is a comprehensive document that outlines the scope, objectives, timeline, resources, and methodologies for executing  project. It serves as a roadmap for all stakeholders involved in the project, including engineers, architects, contractors, and clients. .      </p>
-    </>
-  );
-
-  const images = [
-   '/src/assets/slideimage/IMG-20240403-WA0008.jpg',
-  '/src/assets/slideimage/IMG-20240403-WA0009.jpg',
-  '/src/assets/slideimage/IMG-20240403-WA0010.jpg',
-  '/src/assets/slideimage/IMG-20240403-WA0021.jpg',
-  '/src/assets/slideimage/IMG-20240403-WA0026.jpg',
- ]
+]
  
 
   return (
@@ -128,29 +144,25 @@ function HomePage() {
 <section className="para_section">
  <aside>
  <div className="Servises_heading_div">
-  <p className="Servises_sub_heading" data-aos='fade-right'> --Our Servises--</p>
+  <p className="Servises_sub_heading" data-aos='fade-right'> --Our Missions--</p>
   <h1 className="Servises_heading" data-aos='fade-left'>What We are Doing ?</h1>
  </div>
 <article>
  <div className="srvise_list_div">
 <article className='srvise_list_para_div'>
-  <p className="srvise_list_para" data-aos='fade-up'><b>Topographical Survey and Land Use Mapping:</b>Precise topographical surveys and land use mapping to facilitate informed decision-making and regulatory compliance.
+  <p className="srvise_list_para" data-aos='fade-up'>
+    <b>With 23 years of experience </b>and a dedicated professional and support staff, <b>Rajendra Engineering Consultancy</b> has a broad range of market sectors that we provide our civil engineering services to in the Greater Philadelphia and New Jersey areas.At Rajendra Engineering Consultancy, we specialize in civil engineering and infrastructure projects, including urban planning and design. While our primary focus is on larger-scale projects, we can offer insights and expertise to help you maximize space utilization and create attractive living or working environments.
 
-<b>Litigation Land Demarcation and Partition Commission:</b> Expert assistance in resolving land disputes through precise demarcation and partition commission services.
-
-<b>Preparation of Town Plans or City Plans:</b> Development of comprehensive town plans and city plans to guide sustainable urban development.
-
-<b>Infrastructure Planning:</b> Design and planning services for sewerage, drainage, and water pipe networks to ensure efficient and reliable infrastructure systems..
   </p>
   </article>
   <section className="service_card_section" >
   <ServiceCard 
-      title="Master Plan making & plotting of mass areas"
+      title="Master Plan Making & Plotting of Mass Areas"
       imageUrl={PlanmakingImage}
       para={para}
     />
 <ServiceCard 
-      title="Geo tagging of land"
+      title="Geo Tagging of Land"
       imageUrl={GeotagImage}
       para={para1}
     />
@@ -162,17 +174,17 @@ function HomePage() {
     <ServiceCard
       title="Firm/Company  Registration"
       imageUrl= {firmImage}
-      para={para2}
+      para={para3}
     />
     <ServiceCard
       title="Consultancy On Pollution Control "
       imageUrl={polutionImage}
-      para={para2}
+      para={para4}
     />
     <ServiceCard
-      title="Consultancy On financial  Accounting"
+      title="Consultancy On Financial  Accounting"
       imageUrl={accontingImage}
-      para={para2}
+      para={para5}
     />
 
     <ServiceCard
@@ -210,7 +222,7 @@ function HomePage() {
   </p>
  </article>
   {/* <ServiceCard /> */}
-  <Slide images={images}/>
+  <Slide direction="left" images={Images1} />
 
   </section>
  </div>
