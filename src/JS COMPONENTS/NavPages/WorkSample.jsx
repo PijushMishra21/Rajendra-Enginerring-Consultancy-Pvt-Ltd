@@ -4,17 +4,17 @@ import Slide from '../Homepage/Slides';
 import Footer from '../Homepage/Footer';
 import '../CSS style/WorkSample.css';
 
-import Image1 from '/src/assets/slideimage/IMG-20240403-WA0008.jpg'
+import Image1 from '/src/assets/slideimage/2024-05-19 at 21.33.08_abdefedf.jpg'
 import Image2 from '/src/assets/slideimage/IMG-20240403-WA0009.jpg'
 import Image3 from '/src/assets/slideimage/IMG-20240403-WA0010.jpg'
-import Image4 from '/src/assets/slideimage/IMG-20240403-WA0021.jpg'
-import Image5 from '/src/assets/slideimage/IMG-20240403-WA0026.jpg'
+import Image4 from '/src/assets/slideimage/2024-05-19 at 21.33.04_dc1f61f4.jpg'
+import Image5 from '/src/assets/slideimage/IMG-20240403-WA0021.jpg'
 
 import Image6 from '/src/assets/geological-survey-service-500x500.webp';
-import Image7 from '/src/assets/slideimage/IMG-20240403-WA0009.jpg';
-import Image8 from '/src/assets/slideimage/IMG-20240403-WA0010.jpg';
-import Image9 from '/src/assets/slideimage/IMG-20240403-WA0021.jpg';
-import Image10 from '/src/assets/slideimage/IMG-20240403-WA0026.jpg';
+import Image7 from '/src/assets/slideimage/IMG-20240403-WA0008.jpg';
+import Image8 from '/src/assets/slideimage/2024-05-19 at 21.33.04_c6ccffec.jpg';
+import Image9 from '/src/assets/gps-survey-service-.webp';
+import Image10 from '/src/assets/total-station-survey-service-250x250.webp';
 
 function WorkSample() {
   const Images1 = [Image1, Image2, Image3, Image4, Image5];

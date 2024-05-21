@@ -27,12 +27,12 @@ import firmImage from '/src/assets/civile image.jpg'
 import polutionImage from '/src/assets/polution control image.jpeg'
 import accontingImage from '/src/assets/Consultancy On financial Matters & Accounting.webp'
 /*images imported ended*/
-import Image1 from '/src/assets/slideimage/IMG-20240403-WA0008.jpg'
+
+import Image1 from '/src/assets/slideimage/2024-05-19 at 21.33.08_abdefedf.jpg'
 import Image2 from '/src/assets/slideimage/IMG-20240403-WA0009.jpg'
 import Image3 from '/src/assets/slideimage/IMG-20240403-WA0010.jpg'
-import Image4 from '/src/assets/slideimage/IMG-20240403-WA0021.jpg'
-import Image5 from '/src/assets/slideimage/IMG-20240403-WA0026.jpg'
-
+import Image4 from '/src/assets/slideimage/2024-05-19 at 21.33.04_dc1f61f4.jpg'
+import Image5 from '/src/assets/slideimage/IMG-20240403-WA0021.jpg'
 
 
 
@@ -94,7 +94,7 @@ function HomePage() {
 const paraData = (
   
   <>
-    <p><b>Price:</b>₹10,000/km</p>
+    <p><b>Price:</b>₹10,000/km(approx)</p>
     <p><b>Service Location:</b> India</p>
     <p><b>Service Duration:</b> 0-3 months</p>
     <p><b>Type:</b> GPS</p>
@@ -105,7 +105,7 @@ const paraData = (
 
 const paraData2 = (
   <>
-    <p><b>Price:</b> ₹7500/Day</p>
+    <p><b>Price:</b> ₹7500/Day(approx)</p>
     <p><b>Service Location:</b> India</p>
     <p><b>Service Duration:</b> 0-1 Days</p>
     <p><b>Type:</b> Land Survey</p>
@@ -115,7 +115,7 @@ const paraData2 = (
 
 const paraData3 = (
   <>
-    <p> <b>Price:</b>₹5,000/Day</p>
+    <p> <b>Price:</b>₹5,000/Day (approx)</p>
     <p><b>Service Location:</b> India</p>
     <p><b>Service Duration:</b> 5-7 Days</p>
     <p><b>Type:</b> Soil Testing</p>

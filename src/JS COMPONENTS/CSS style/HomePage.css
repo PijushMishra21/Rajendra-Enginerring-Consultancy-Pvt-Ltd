@@ -31,7 +31,7 @@ body{
  --Color:red ;
 }
 .active{
-  border-bottom: 5px solid red;
+  border-bottom: 2px solid red;
 }
 /* 
 .top_bar{

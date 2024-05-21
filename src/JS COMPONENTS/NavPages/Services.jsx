@@ -25,11 +25,11 @@ import laserImage from '/src/assets/machine-alignment-services-.webp'
 import topoImage from '/src/assets/topographical-route-land-survey-service-500x500.jpeg'
 /*images import ended*/
 
-import Image1 from '/src/assets/slideimage/IMG-20240403-WA0008.jpg'
+import Image1 from '/src/assets/slideimage/2024-05-19 at 21.33.08_abdefedf.jpg'
 import Image2 from '/src/assets/slideimage/IMG-20240403-WA0009.jpg'
 import Image3 from '/src/assets/slideimage/IMG-20240403-WA0010.jpg'
-import Image4 from '/src/assets/slideimage/IMG-20240403-WA0021.jpg'
-import Image5 from '/src/assets/slideimage/IMG-20240403-WA0026.jpg'
+import Image4 from '/src/assets/slideimage/2024-05-19 at 21.33.04_dc1f61f4.jpg'
+import Image5 from '/src/assets/slideimage/IMG-20240403-WA0021.jpg'
 
 
 
@@ -152,7 +152,7 @@ Our 3D modelling service transforms concepts into detailed, lifelike representat
       title="Gps Survey Services"
       imageUrl={gpsImage}
       para= {<>
-      <p><b>Price:</b>  ₹10,000/km</p>
+      <p><b>Price:</b>  ₹10,000/km(approx)</p>
       <p><b>Service Location:</b> India</p>
       <p><b>Service Duration:</b> 0-3 months</p>
       <p><b>Type:</b> GPS</p>
@@ -165,7 +165,7 @@ Our 3D modelling service transforms concepts into detailed, lifelike representat
        title="Layout-and-Lineout-Survey-Service"
        imageUrl={layoutImage}
       para= {<>
-      <p><b>Price:</b> ₹7000/Day</p>
+      <p><b>Price:</b> ₹7000/Day(approx)</p>
       <p><b>Service Location:</b> India</p>
       <p><b>Service Duration:</b> 0-3 months</p>
       <p><b>Type:</b> Layout And Lineout</p>
@@ -178,7 +178,7 @@ Our 3D modelling service transforms concepts into detailed, lifelike representat
        title="Soil Investigation  and Testing" 
        imageUrl={soilImage}
       para= {<>
-      <p><b>Price:</b> ₹5,000</p>
+      <p><b>Price:</b> ₹5,000/Day(approx)</p>
       <p><b>Service Location:</b> India</p>
       <p><b>Service Duration:</b>2-7 Days</p>
       <p><b>Type:</b> Soil</p>
@@ -191,7 +191,7 @@ Our 3D modelling service transforms concepts into detailed, lifelike representat
       title="Total Station Survey Service"
       imageUrl={stationImage}
       para= {<>
-      <p><b>Price:</b> ₹7500/Day</p>
+      <p><b>Price:</b> ₹7500/Day(approx)</p>
       <p><b>Service Location:</b> India</p>
       <p><b>Service Duration:</b> 0-1 Days</p>
       <p><b>Type:</b> Station Survey</p>
@@ -208,7 +208,7 @@ Our 3D modelling service transforms concepts into detailed, lifelike representat
       title="DGPS-Survey-Service"
       imageUrl={dgpsImage}
       para= {<>
-      <p><b>Price:</b> 10,000/Day</p>
+      <p><b>Price:</b> 10,000/Day(approx)</p>
       <p><b>Service Location:</b> India</p>
       <p><b>Service Duration:</b> 1-3 Days</p>
       <p><b>Type:</b> DGPS</p>
@@ -220,7 +220,7 @@ Our 3D modelling service transforms concepts into detailed, lifelike representat
       title="Land Survey Consultancy Service"
       imageUrl={landImage}
       para= {<>
-      <p><b>Price:</b>₹7,500/Day</p>
+      <p><b>Price:</b>₹7,500/Day(approx)</p>
       <p><b>Service Location:</b> India</p>
       <p><b>Service Duration:</b> 0-3 months</p>
       <p><b>Type:</b> Land</p>
@@ -232,7 +232,7 @@ Our 3D modelling service transforms concepts into detailed, lifelike representat
       title="Land and-Survey-Service"
       imageUrl={layoutImage}
       para= {<>
-      <p><b>Price:</b> 10,000</p>
+      <p><b>Price:</b> 10,000(approx)</p>
       <p><b>Service Location:</b> India</p>
       <p><b>Service Duration:</b> 0-3 months</p>
       <p><b>Type:</b> GPS</p>
@@ -245,7 +245,7 @@ Our 3D modelling service transforms concepts into detailed, lifelike representat
       title="Topographical Land Survey "
       imageUrl={topoImage}
       para= {<>
-      <p><b>Price:</b> ₹300/acre</p>
+      <p><b>Price:</b> ₹300/acre(approx)</p>
       <p><b>Service Location:</b> India</p>
       <p><b>Service Duration:</b> 0-3 months</p>
       <p><b>Type:</b> GPS</p>
@@ -263,7 +263,7 @@ Our 3D modelling service transforms concepts into detailed, lifelike representat
       imageUrl={geologiImage}
       // para={paraData}
       para= {<>
-      <p><b>Price:</b>  ₹5,200/Day </p>
+      <p><b>Price:</b>  ₹5,200/Day(approx) </p>
       <p><b>Service Location:</b> India</p>
       <p><b>Service Duration:</b> 0-3 months</p>
       <p><b>Type:</b> Geological</p>
@@ -277,7 +277,7 @@ Our 3D modelling service transforms concepts into detailed, lifelike representat
       imageUrl={landImage}
       para={
         <>
-        <p><b>Price:</b> ₹7500/Day</p>
+        <p><b>Price:</b> ₹7500/Day(approx)</p>
     <p><b>Service Location:</b> India</p>
     <p><b>Service Duration:</b> 0-1 Days</p>
     <p><b>Type:</b> Land Survey</p>
@@ -288,7 +288,7 @@ Our 3D modelling service transforms concepts into detailed, lifelike representat
      title="Laser Alignment"
      imageUrl={laserImage}
       para= {<>
-      <p><b>Price:</b>₹8,500/Day</p>
+      <p><b>Price:</b>₹8,500/Day(approx)</p>
       <p><b>Service Location:</b> India</p>
       <p><b>Service Duration:</b> 0-3 months</p>
       <p><b>Type:</b> machine alignment</p>
@@ -300,7 +300,7 @@ Our 3D modelling service transforms concepts into detailed, lifelike representat
       title="GIS Survey Service"
       imageUrl={gisImage}
       para= {<>
-      <p><b>Price:</b> ₹450 /acre </p>
+      <p><b>Price:</b> ₹450 /acre(approx) </p>
       <p><b>Service Location:</b> India</p>
       <p><b>Service Duration:</b> 0-3 months</p>
       <p><b>Type:</b> GIS</p>

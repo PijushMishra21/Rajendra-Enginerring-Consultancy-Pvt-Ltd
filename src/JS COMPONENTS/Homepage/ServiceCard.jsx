@@ -23,11 +23,9 @@ function ServiceCard({title,imageUrl,para,price,duration,type,accuracy,quantity}
   </div>
   <div className="service_card_title" data-aos='fade'>
     
-       <h1 className='card-title'>{title}</h1>
-    
+       <h1 className='card-title'>{title}</h1>    
     </div>
   <div className="service_card_description" data-aos='fade'>
-
       <p className='para'>{para}</p>
   </div>
   <Link to='/ContactUs'>

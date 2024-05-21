@@ -7,11 +7,11 @@ import { FaPhoneAlt,FaPeriscope,FaEnvelope   } from "react-icons/fa";
 import Slide from '../Homepage/Slides';
 
 
-import Image1 from '/src/assets/slideimage/IMG-20240403-WA0008.jpg'
+import Image1 from '/src/assets/slideimage/2024-05-19 at 21.33.08_abdefedf.jpg'
 import Image2 from '/src/assets/slideimage/IMG-20240403-WA0009.jpg'
 import Image3 from '/src/assets/slideimage/IMG-20240403-WA0010.jpg'
-import Image4 from '/src/assets/slideimage/IMG-20240403-WA0021.jpg'
-import Image5 from '/src/assets/slideimage/IMG-20240403-WA0026.jpg'
+import Image4 from '/src/assets/slideimage/2024-05-19 at 21.33.04_dc1f61f4.jpg'
+import Image5 from '/src/assets/slideimage/IMG-20240403-WA0021.jpg'
 
 
 function ContactForm() {
